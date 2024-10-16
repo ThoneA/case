@@ -10,8 +10,6 @@ I dagens digitale verden er det viktig å ivareta sikkerhet når man jobber med 
 
 - **Autentisering og autorisasjon:** Disse må implementeres riktig slik at bare autoriserte brukere har tilgang til nødvendig data.
 
-- **Beskyttelse mot XSS:** Selv om det ikke er tekstinput fra brukeren, bør utviklere beskytte mot Cross-Site Scripting (XSS) ved å validere og sikre all data som vises på siden, spesielt fra eksterne kilder.
-
 ## Oppgave 3: Universell Utforming
 
 Staten stiller krav til at digitale løsninger skal være universelt utformet. Utviklere og designere bør ta hensyn til brukere med ulike behov for å sikre universell utforming. Her er noen viktige punkter på hva jeg mener utviklere og designere bør tenkte på:
