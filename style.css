@@ -1,0 +1,79 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333333;
+    background-color: #4d6c3eae;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+}
+
+.Toppkasko, .Kasko_med_leiebil, .Kasko, .Minikasko, .Ansvar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.pris {
+    margin-left: auto;
+}
+
+.sammenligning {
+    text-decoration: underline;
+}
+
+.anbefalt {
+    display: none;
+    position: absolute;
+    top: -20px;
+    left: 1%;
+    background-color: rgba(197, 188, 245, 0.938);
+    border-radius: 5px;
+    padding: 5px; 
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.beskrivelse {
+    max-height: 0;
+    overflow: hidden;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    width: 100%;
+    transition: max-height 1s ease-in-out;
+}
+
+.inner_container_1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.inner_container_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Toppkasko:hover .beskrivelse, .Kasko_med_leiebil:hover .beskrivelse, .Kasko:hover .beskrivelse, .Minikasko:hover .beskrivelse, .Ansvar:hover .beskrivelse {
+    max-height: 200px;
+}
+
+.sammenligning:hover {
+    font-weight: bold;
+}
+
+
+
+
